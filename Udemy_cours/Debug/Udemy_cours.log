@@ -1,0 +1,8 @@
+﻿  Exceptions_course.cpp
+c:\users\mati\source\repos\udemy course\udemy_course\exceptions_course.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ExceptionsStandardExceptions.cpp
+  ExceptionsCustomExceptions.cpp
+  ExceptionsBasicExceptions.cpp
+  ExceptionCatchingOrder.cpp
+  Generating Code...
+  Udemy_cours.vcxproj -> C:\Users\Mati\source\repos\Udemy_cours\Debug\Udemy_cours.exe
