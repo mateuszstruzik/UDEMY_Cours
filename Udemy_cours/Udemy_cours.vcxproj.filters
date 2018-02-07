@@ -13,42 +13,68 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{5510ef9a-ae7a-4fd2-b66a-6b82db4129c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{4ec6a533-6773-4c57-bc3c-42997948e366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files">
+      <UniqueIdentifier>{ff39af09-2a10-480a-ac59-b749233f65f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Files">
+      <UniqueIdentifier>{1ae62127-808f-4e90-9c70-125ad9778f05}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExceptionCatchingOrder.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Exceptions</Filter>
     </ClInclude>
     <ClInclude Include="Exceptions_course.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Exceptions</Filter>
     </ClInclude>
     <ClInclude Include="ExceptionsBasicExceptions.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Exceptions</Filter>
     </ClInclude>
     <ClInclude Include="ExceptionsCustomExceptions.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Exceptions</Filter>
     </ClInclude>
     <ClInclude Include="ExceptionsStandardExceptions.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="FilesWhole.h">
+      <Filter>Header Files\Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ExceptionCatchingOrder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Exceptions_course.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ExceptionsBasicExceptions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ExceptionsCustomExceptions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ExceptionsStandardExceptions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Maincpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exceptions_course.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionCatchingOrder.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionsBasicExceptions.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionsCustomExceptions.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionsStandardExceptions.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="FilesWhole.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="stats.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

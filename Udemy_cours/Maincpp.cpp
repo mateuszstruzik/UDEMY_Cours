@@ -1,4 +1,5 @@
 #include"Exceptions_course.h"
+#include"FilesWhole.h"
 
 using namespace std;
 
@@ -12,6 +13,12 @@ int main() {
 	Exceptions_course exception_course;
 
 	exception_course.collectWholePart();
+
+	cout << endl << "--------------------------------\n" << endl;
+
+	FilesWhole fileswhole;
+
+	fileswhole.collectwhole();
 
 	system("pause");
 	return 0;

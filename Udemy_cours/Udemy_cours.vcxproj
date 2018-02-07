@@ -24,6 +24,7 @@
     <ClInclude Include="ExceptionsCustomExceptions.h" />
     <ClInclude Include="ExceptionsStandardExceptions.h" />
     <ClInclude Include="Exceptions_course.h" />
+    <ClInclude Include="FilesWhole.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExceptionCatchingOrder.cpp" />
@@ -31,7 +32,12 @@
     <ClCompile Include="ExceptionsCustomExceptions.cpp" />
     <ClCompile Include="ExceptionsStandardExceptions.cpp" />
     <ClCompile Include="Exceptions_course.cpp" />
+    <ClCompile Include="FilesWhole.cpp" />
     <ClCompile Include="Maincpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="stats.txt" />
+    <Text Include="test.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
