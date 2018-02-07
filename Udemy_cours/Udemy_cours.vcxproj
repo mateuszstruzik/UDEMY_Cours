@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExceptionCatchingOrder.h" />
+    <ClInclude Include="ExceptionsBasicExceptions.h" />
+    <ClInclude Include="ExceptionsCustomExceptions.h" />
+    <ClInclude Include="ExceptionsStandardExceptions.h" />
+    <ClInclude Include="Exceptions_course.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExceptionCatchingOrder.cpp" />
+    <ClCompile Include="ExceptionsBasicExceptions.cpp" />
+    <ClCompile Include="ExceptionsCustomExceptions.cpp" />
+    <ClCompile Include="ExceptionsStandardExceptions.cpp" />
+    <ClCompile Include="Exceptions_course.cpp" />
+    <ClCompile Include="Maincpp.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{CB079F33-CA13-4B88-9094-06BE986404C2}</ProjectGuid>
@@ -142,21 +157,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionCatchingOrder.h" />
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionsBasicExceptions.h" />
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionsCustomExceptions.h" />
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionsStandardExceptions.h" />
-    <ClInclude Include="..\..\Udemy course\Udemy_course\Exceptions_course.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionCatchingOrder.cpp" />
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionsBasicExceptions.cpp" />
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionsCustomExceptions.cpp" />
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionsStandardExceptions.cpp" />
-    <ClCompile Include="..\..\Udemy course\Udemy_course\Exceptions_course.cpp" />
-    <ClCompile Include="..\..\Udemy course\Udemy_course\Maincpp.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

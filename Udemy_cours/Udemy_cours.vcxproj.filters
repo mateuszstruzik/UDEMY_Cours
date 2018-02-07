@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionCatchingOrder.h">
+    <ClInclude Include="ExceptionCatchingOrder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Udemy course\Udemy_course\Exceptions_course.h">
+    <ClInclude Include="Exceptions_course.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionsBasicExceptions.h">
+    <ClInclude Include="ExceptionsBasicExceptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionsCustomExceptions.h">
+    <ClInclude Include="ExceptionsCustomExceptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Udemy course\Udemy_course\ExceptionsStandardExceptions.h">
+    <ClInclude Include="ExceptionsStandardExceptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionCatchingOrder.cpp">
+    <ClCompile Include="ExceptionCatchingOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Udemy course\Udemy_course\Exceptions_course.cpp">
+    <ClCompile Include="Exceptions_course.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionsBasicExceptions.cpp">
+    <ClCompile Include="ExceptionsBasicExceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionsCustomExceptions.cpp">
+    <ClCompile Include="ExceptionsCustomExceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Udemy course\Udemy_course\ExceptionsStandardExceptions.cpp">
+    <ClCompile Include="ExceptionsStandardExceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Udemy course\Udemy_course\Maincpp.cpp">
+    <ClCompile Include="Maincpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
